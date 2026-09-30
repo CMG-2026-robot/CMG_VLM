@@ -1,5 +1,4 @@
 import torch
-# 改动：从 transformers 导入，不再使用 modelscope
 from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
 from qwen_vl_utils import process_vision_info
 
